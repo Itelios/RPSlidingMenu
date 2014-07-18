@@ -60,7 +60,7 @@ const CGFloat RPSlidingCellDragInterval = 180.0f;
     
     
     CGFloat yOffsetMax = totalComputedHeight - self.collectionView.bounds.size.height;
-    CGFloat realItemOffset = yOffsetMax / totalItem;
+    CGFloat realItemOffset = yOffsetMax / (totalItem-1);
     
     
     CGFloat itemIndexOffset = self.collectionView.contentOffset.y / realItemOffset;
@@ -168,7 +168,7 @@ const CGFloat RPSlidingCellDragInterval = 180.0f;
     
     
     CGFloat yOffsetMax = totalComputedHeight - self.collectionView.bounds.size.height;
-    CGFloat realItemOffset = yOffsetMax / totalItem;
+    CGFloat realItemOffset = yOffsetMax / (totalItem-1);
     
     CGFloat res = proposedContentOffset.y / realItemOffset;
     double unused;

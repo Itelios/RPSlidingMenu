@@ -33,7 +33,7 @@ const CGFloat RPSlidingMenuFeaturedImageCoverAlpha = 0.0f;
 @interface RPSlidingMenuCell ()
 
 @property (strong, nonatomic) UIView *imageCover;
-@property (strong, nonatomic) UIView* separator;
+
 @end
 
 @implementation RPSlidingMenuCell
