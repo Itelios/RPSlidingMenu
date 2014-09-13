@@ -1,3 +1,9 @@
+**The project have completely changed since it was forked from RobotsAndPencils.
+We will change README and file name in the future.**
+
+
+-----------------
+
 RPSlidingMenu
 =============
 
